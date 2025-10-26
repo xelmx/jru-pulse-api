@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+torch
+transformers
+sentencepiece
+tiktoken
+protobuf
+keybert
+scikit-learn
+numpy
+pydantic
