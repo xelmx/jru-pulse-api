@@ -9,9 +9,12 @@ A REST API built with Python and Fast API to serve NLP predictions for sentiment
 ---
 ### API Endpoints: 
 
+![Alt Text for the image](img/uvicorn%20server%20activation.jpg)
+
 ### `POST /analyze`
 
 Analyzes a list of texts for sentiments, keyword and satisfactions.
+
 
 * **Request Body:** 
     ```json
@@ -23,6 +26,7 @@ Analyzes a list of texts for sentiments, keyword and satisfactions.
         ]
     }
     ```
+![Alt Text for the image](img/Input_Request_Body.png)
 
 * **Response:**
     ``` json
@@ -63,5 +67,6 @@ Analyzes a list of texts for sentiments, keyword and satisfactions.
         ]
     }
     ```
+![Alt Text for the image](img/Output_Response_Body.png)
 
 
